@@ -73,7 +73,7 @@ class KnowledgeBaseService(object):
             return "[跳过]内容已经存在在知识库中"
 
         if len(data) > config.max_spliter_char_number:
-            knowledge_chunks: List[str] = self.spliter.split_text(data)
+            knowledge_chunks: list[str] = self.spliter.split_text(data)
         else:
             knowledge_chunks = [data]
 
@@ -95,6 +95,6 @@ class KnowledgeBaseService(object):
         return "[成功]内容已上传至知识库"
 
 if __name__ == "__main__":
-     service = KnowledgeBaseService()
-     r = service.upload_by_str("郭力航", "testfile")
-     print(r)
+    service = KnowledgeBaseService()
+    r = service.upload_by_str("郭力航", "testfile")
+    print(r)
