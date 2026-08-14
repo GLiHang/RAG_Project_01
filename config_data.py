@@ -1,5 +1,5 @@
 
-md5_path = "./md5.text"
+md5_path = "md5.text"
 
 # Chroma
 collection_name = "rag"
