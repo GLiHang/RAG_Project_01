@@ -11,5 +11,8 @@ chunk_overlap = 100
 separators = ["\n\n", "\n", "。", "！", "?"]
 max_spliter_char_number = 1000          # 文本分割的阈值
 
-#
-top_k = 2            # 检索访问匹配的文档数量
+# 检索访问匹配的文档数量
+top_k = 2         
+
+embedding_model_name = "text-embedding-v4"
+chat_model_name = "qwen3-max"
