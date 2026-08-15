@@ -25,7 +25,6 @@ service = KnowledgeBaseService()
 if "service" not in st.session_state:
     st.session_state["service"] = KnowledgeBaseService()
 
-
 if uploaded_file is not None:
     # 提取文件的名称、类型和大小
     file_name = uploaded_file.name
@@ -42,4 +41,3 @@ if uploaded_file is not None:
         time.sleep(1)
         result = st.session_state["service"].upload_by_str(file_name, text)
         st.write(result)
-
