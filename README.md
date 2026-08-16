@@ -76,8 +76,8 @@ RAG_Project_01/
 # 进入项目目录，激活虚拟环境
 .venv\Scripts\activate
 
-# 安装依赖（如尚未安装）
-pip install streamlit langchain-chroma langchain-community langchain-text-splitters langchain-core
+# 安装依赖
+pip install -r requirements.txt
 ```
 
 ### 2. 配置 API Key
