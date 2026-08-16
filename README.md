@@ -48,7 +48,6 @@ RAG_Project_01/
 │   └── 颜色选择.txt
 ├── chat_history/          # 多轮对话历史记录（JSON，按会话分文件）
 ├── chroma_db/             # Chroma 向量库持久化目录
-├── assets/images/         # 系统流程图等文档图片
 ├── md5.text               # 已入库内容的 MD5 记录（去重依据）
 └── .venv/                 # Python 虚拟环境
 ```
