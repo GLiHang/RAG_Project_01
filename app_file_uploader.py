@@ -39,5 +39,5 @@ if uploaded_file is not None:
 
     with st.spinner("正在处理文件..."):       # 在sping内的代码执行过程中，会有一个转圈动画
         time.sleep(1)
-        result = st.session_state["service"].upload_by_str(file_name, text)
+        result = st.session_state["service"].upload_by_str(text, file_name)
         st.write(result)
