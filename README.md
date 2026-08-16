@@ -17,16 +17,6 @@
 - 💬 **聊天界面**：Streamlit 对话式客服页面，支持流式输出（打字机效果）
 - 🕘 **多轮对话记忆**：基于 `RunnableWithMessageHistory` + JSON 文件持久化，按会话（session_id）保存历史，支持上下文连续问答
 
-## 📊 系统流程图
-
-### 在线流程（用户问答）
-
-![在线流程](assets/images/Pasted%20image%2020260816212538.png)
-
-### 离线流程（知识入库）
-
-![离线流程](assets/images/Pasted%20image%2020260816212620.png)
-
 ## 🛠 技术栈
 
 | 分类 | 技术 |
