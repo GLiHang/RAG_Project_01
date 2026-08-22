@@ -177,3 +177,7 @@ python RAG.py
 - 上传内容需为 UTF-8 编码的 TXT 文件
 - 向量库为本地持久化，删除 `chroma_db/` 目录即清空知识库；如需重新入库，请同步清理 `md5.text`，否则会被去重逻辑跳过
 - 对话历史按 `session_id` 保存在 `chat_history/`，删除对应文件即可清空该会话记忆
+
+## License
+
+MIT © GLiHang — 可自由使用、修改、分发、商业化，需保留版权声明。
