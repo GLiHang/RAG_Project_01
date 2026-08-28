@@ -180,4 +180,4 @@ python RAG.py
 
 ## License
 
-MIT © GLiHang — 可自由使用、修改、分发、商业化，需保留版权声明。
+MIT © GLiHang
